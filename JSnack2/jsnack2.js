@@ -7,9 +7,9 @@ const word1Length = word1.length;
 const word2Length = word2.length;
 
 if (word1Length < word2Length) {
-    console.log(word1 + "piu corta " + word2);
+    console.log(word1 + " è piu corta di " + word2);
 } else if (word1Length > word2Length) {
-    console.log(word2 + " piu lunga " + word1);
+    console.log(word2 + "è piu lunga di " + word1);
 } else {
     console.log("Le parole hanno la stessa lunghezza.");
 }
