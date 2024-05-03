@@ -11,4 +11,7 @@ for (let i = 0; i < 2 ; i++ ){
 
 //first debug
 console.log(myArray)
-alert("i num sono stati inseriti corretamente nell array")
+
+const sum = myArray.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+//second debug
+console.log(sum);
