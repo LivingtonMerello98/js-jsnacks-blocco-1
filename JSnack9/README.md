@@ -8,13 +8,13 @@ Stampa i risultati in console
 
 myArray = []
 
-let flag = false;
 
 --ciclo for per 10 richieste ---
 for ( let i = 0; i < 10; i++){
 
-const userPrompt = parseint(prompt("digita numero")) 
-   
+    const userPrompt = parseint(prompt("digita numero")) 
+    myArray.push(userPrompt)
+
 }
 //debug
 console.log(myArray);
