@@ -13,8 +13,8 @@ const word2 = prompt()
 ----Memorizza la lunghezza della seconda parola utilizzando lo stesso metodo---
 ---confronto lughezze---
 
-const word1Lenght = word1
-const word2Lenght = word2
+const word1Lenght = word1.lenght
+const word2Lenght = word2.lenght
 
 
 //Confronta le lunghezze delle parole per determinare la più corta e la più lunga.
