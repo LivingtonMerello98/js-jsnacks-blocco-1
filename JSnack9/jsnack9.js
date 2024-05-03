@@ -15,3 +15,7 @@ console.log(myArray)
 const sum = myArray.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
 //second debug
 console.log(sum);
+
+//media dei valori
+const average = sum % myArray.length
+console.log(average);
