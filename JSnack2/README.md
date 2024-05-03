@@ -21,7 +21,7 @@ const word2Lenght = word2
 if (word1Length < word2Length) {
     "prima parola più corta"
 } else if (word1Length > word2Length) {
-    "la prima parola più corta"
+    "la prima parola più lunga"
 } else {
    "pari"
 }
